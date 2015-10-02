@@ -58,7 +58,6 @@ static PyObject *calcurate_groebner_basis(PyObject *self, PyObject *args) {
     std::string v = *it;
     PyObject *str = PyString_FromString(v.c_str());
     PyList_Append(ret_pollist, str);
-    puts(v.c_str());
   }
 
   return ret_pollist;
