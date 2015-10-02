@@ -2,7 +2,7 @@ libopenf4-py
 ===================
 
 # What?
-Implementation of Openf4(http://nauotit.github.io/openf4/) on Python Extension.
+Implementation of Openf4(http://nauotit.github.io/openf4/) wrapper on Python Extension.
 
 # How?
 Requirement: openf4, g++(C++11~), Python 2.x
